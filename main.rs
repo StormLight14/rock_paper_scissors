@@ -20,7 +20,7 @@ enum Choice {
 fn main() {
     println!("Welcome to Rock, Paper, Scissors!");
 
-    let mut possible_choices = vec![Choice::Rock, Choice::Paper, Choice::Scissors];
+    let possible_choices = [Choice::Rock, Choice::Paper, Choice::Scissors];
 
     loop {
         let mut rng = rand::thread_rng();
